@@ -20,12 +20,12 @@ gulp.task("copy:css", function() {
 });
 
 gulp.task("copy:json", function() {
-  return gulp.src("src/**/*.json")
-    .pipe(gulp.dest("dist/amd"))
-    .pipe(gulp.dest("dist/commonjs"))
-    .pipe(gulp.dest("dist/es2015"))
-    .pipe(gulp.dest("dist/native-modules"))
-    .pipe(gulp.dest("dist/system"));
+  return gulp.src("locales/**/*.json")
+    .pipe(gulp.dest("dist/amd/locales"))
+    .pipe(gulp.dest("dist/commonjs/locales"))
+    .pipe(gulp.dest("dist/es2015/locales"))
+    .pipe(gulp.dest("dist/native-modules/locales"))
+    .pipe(gulp.dest("dist/system/locales"));
 });
 
 gulp.task("sass", function() {
