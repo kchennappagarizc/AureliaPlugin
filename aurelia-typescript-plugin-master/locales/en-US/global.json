@@ -1,0 +1,5 @@
+{
+    "DateTimeFormat": "{{dateTimeVar, { 'year': 'numeric', 'month': 'long','day': '2-digit'}  }}",
+    "CurrencyFormat": "{{ currencyVar, {'style': 'currency', 'currency': 'USD'} }}",
+    "NumberFormat": "{{ numberVar, {'style': 'decimal'} }}"
+}

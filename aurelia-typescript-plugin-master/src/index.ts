@@ -25,7 +25,7 @@ export function configure(aurelia: FrameworkConfiguration, config) {
             
           },
           attributes: aliases,
-          lng : 'de',
+          lng : config.lng,
           fallbackLng : 'en',
           debug : false,
           ns: config.ns,
