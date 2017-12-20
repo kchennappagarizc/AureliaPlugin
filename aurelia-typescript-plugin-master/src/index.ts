@@ -2,7 +2,7 @@ import {FrameworkConfiguration, PLATFORM } from 'aurelia-framework';
 import {I18N, TCustomAttribute} from 'aurelia-i18n';
 import * as Backend from 'i18next-xhr-backend';
 
-export function configure(aurelia: FrameworkConfiguration) {
+export function configure(aurelia: FrameworkConfiguration, config) {
     aurelia
         .globalResources([
 
@@ -28,7 +28,7 @@ export function configure(aurelia: FrameworkConfiguration) {
           lng : 'de',
           fallbackLng : 'en',
           debug : false,
-          ns: ['translation','nav', 'common'],
+          ns: config.ns,
           defaultNS: 'translation'
         });
       });

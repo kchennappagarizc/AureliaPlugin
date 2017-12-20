@@ -1,6 +1,6 @@
 {
   "name": "aurelia-typescript-plugin",
-  "version": "4.8.5",
+  "version": "4.8.7",
   "description": "TypeScript based plugin structure for Aurelia plugins.",
   "keywords": [
     "skeleton",
